@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ### 3️⃣ Create .env File
 ```bash
-cp .env.example .env
+touch .env # Linux
 ```
 
 **Sample .env format:**
@@ -52,7 +52,7 @@ python -c "from app import app, db; app_ctx = app.app_context(); app_ctx.push();
 ```bash
 flask run
 ```
-Backend ready at: **http://localhost:8000**
+Backend ready at: **http://localhost:5000**
 
 ---
 
@@ -85,7 +85,7 @@ Frontend ready at: **http://localhost:3000**
 
 ## ✅ Done!
 
-- ✅ Backend running on http://localhost:8000
+- ✅ Backend running on http://localhost:5000
 - ✅ Frontend running on http://localhost:3000
 - ✅ Ready to test signup, login, and password reset
 
