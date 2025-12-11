@@ -43,6 +43,7 @@ Perfect for portfolio projects and learning full-stack development.
 ## 🛠 Tech Stack
 
 ### Backend
+- **Language**: Python 3.11.2
 - **Framework**: Flask 2.x
 - **Database**: MySQL with SQLAlchemy ORM
 - **Authentication**: Flask-JWT-Extended
