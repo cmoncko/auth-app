@@ -158,7 +158,7 @@ flask db upgrade
 flask run
 ```
 
-Backend runs on: `http://localhost:8000`
+Backend runs on: `http://localhost:5000`
 
 ### Frontend Setup
 
