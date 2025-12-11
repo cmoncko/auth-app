@@ -36,4 +36,49 @@ Designed as a **technical demonstration** for hiring teams, showing your ability
 ---
 
 ## 📁 Project Structure
+│
+├── backend/
+│ ├── app.py
+│ ├── config.py
+│ ├── routes/
+│ ├── models/
+│ ├── utils/
+│ ├── requirements.txt
+│ └── .env.example
+│
+├── frontend/
+│ ├── src/
+│ ├── public/
+│ └── package.json
+│
+└── docs/
+├── API.md
+├── FLOW.md
+└── schema.md
 
+
+---
+
+## 🌱 Features
+
+### 🔑 **Authentication**
+- User Signup  
+- Login with email + password  
+- Password hashing with Werkzeug  
+- JWT token generation (access token)
+
+### 🔐 **Password Reset**
+- Forgot password request  
+- OTP generation (6-digit code)  
+- OTP delivered via email  
+- OTP expiry validation  
+- Password reset handler  
+
+### 🛡 Security
+- Hashed passwords (never stored as plain text)  
+- JWT tokens for user sessions  
+- Environment variables for secrets  
+- CORS protection  
+- Email OTP with expiry  
+
+---
